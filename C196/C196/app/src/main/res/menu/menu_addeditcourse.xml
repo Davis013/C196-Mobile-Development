@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Share Note"
+          android:id="@+id/action_share"
+          app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_notify"
+        android:title="Notify Start"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_notifyend"
+        android:title="Notify End" />
+
+    <item android:title="Delete"
+          android:id="@+id/coursedelete"
+        />
+</menu>
